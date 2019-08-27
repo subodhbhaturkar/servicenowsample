@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <connect_queue/>
+        <description>asdasd</description>
+        <graph>{
+  "graph_api_version": "1.0.3",
+  "goals": {
+    "1fc4d41f5087451bb8f533ee560dc0dc": {
+      "id": "1fc4d41f5087451bb8f533ee560dc0dc",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "20be9ed5bf084c9aa8a21c93223138c9": {
+          "id": "20be9ed5bf084c9aa8a21c93223138c9",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "b7eec7dd7448415f88fa33535a525f2f": {
+          "id": "b7eec7dd7448415f88fa33535a525f2f",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "d93e5eeb607d46faa53e7127109d938f",
+          "edgeType": "Edge",
+          "source": "20be9ed5bf084c9aa8a21c93223138c9",
+          "target": "b7eec7dd7448415f88fa33535a525f2f",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {}
+}</graph>
+        <key_phrases>EntitlementTest</key_phrases>
+        <live_agent>false</live_agent>
+        <name>EntitlementTest</name>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-09 08:33:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>66b7720f4f3e23004044f3117310c7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EntitlementTest</sys_name>
+        <sys_package display_value="Sample" source="x_248291_sample">adff0a724f3223004044f3117310c721</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sample">adff0a724f3223004044f3117310c721</sys_scope>
+        <sys_update_name>sys_cb_topic_66b7720f4f3e23004044f3117310c7ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-09 08:33:19</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=66b7720f4f3e23004044f3117310c7ee"/>
+</record_update>
